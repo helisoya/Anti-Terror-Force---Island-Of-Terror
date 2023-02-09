@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6c49d59b943d31849a4f701d5f6b0197
+  - enabled: 1
+    path: Assets/Scenes/MissionScreen.unity
+    guid: ded905648b4f47643982bff8a23a5ddc
+  - enabled: 1
+    path: Assets/Scenes/PORT.unity
+    guid: 4b05603f609e7de49b1ed39f7ddc8553
+  - enabled: 1
+    path: Assets/Scenes/FOREST.unity
+    guid: d1bca59d171377c4893a18a10737ef48
+  - enabled: 1
+    path: Assets/Scenes/MOUNTAIN_PASSAGE.unity
+    guid: 991f2d6cebd9fe34899e0777c84d64e1
+  - enabled: 1
+    path: Assets/Scenes/MOUNTAINS.unity
+    guid: 1beeb74777b47ea4996c52e45a7ca8d8
+  - enabled: 1
+    path: Assets/Scenes/SWAMP.unity
+    guid: a9b2e0fd5c21db04bbe11bfa8fa3479b
+  - enabled: 1
+    path: Assets/Scenes/FORT.unity
+    guid: 1c658541005554f4580b897318481c32
+  - enabled: 1
+    path: Assets/Scenes/RESEARCH_CENTER.unity
+    guid: 9033147ec92e2cc4bae5f24c85f66d53
+  - enabled: 1
+    path: Assets/Scenes/COMMAND_CENTER.unity
+    guid: a27c9bc14f55b2d4a8b8781ab1cbb00a
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: f2089ebd388352847b84bdfd99acb2ab
+  m_configObjects: {}

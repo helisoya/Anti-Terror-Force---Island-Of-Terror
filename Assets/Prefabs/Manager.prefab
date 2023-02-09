@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8966621829595475616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8966621829595475614}
+  - component: {fileID: 8966621829595475615}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8966621829595475614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966621829595475616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.118183, y: -0.09590552, z: 24.578775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8966621829595475615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966621829595475616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7d80d54338af644bec9f207add8bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  save:
+    gunsUnlocked: []
+    gunsOnPlayer: []
+    quests: []
+    lastMap: NONE
+  quests:
+  - questID: PORT
+    questStatus: 0
+    questName: Infiltrate the docks
+    questDescription: Infiltrate the docks to learn where the terrorists are hiding.
+  - questID: FOREST
+    questStatus: 0
+    questName: Infiltrate the forest
+    questDescription: Find informations in the forest to learn more about the terrorists.
+  - questID: MOUNTAIN_PASSAGE
+    questStatus: 0
+    questName: Find the research center
+    questDescription: 'Find the entrance of the research center. According to the
+      documents, it is located in the mountains. '
+  - questID: MOUNTAIN
+    questStatus: 0
+    questName: Find the entrance
+    questDescription: The entrance of the research center is hidden in the mountains.
+  - questID: MOUNTAIN_INFORMATIONS
+    questStatus: 0
+    questName: Find informations
+    questDescription: Find informations in the mountains about the lock on the research
+      center's door.
+  - questID: SWAMP
+    questStatus: 0
+    questName: Infiltrate the swamp
+    questDescription: According to the plans found, the fort where the key are locatedd
+      is hidden beyond the swamp of the island.
+  - questID: FORT
+    questStatus: 0
+    questName: Infiltrate the fort
+    questDescription: Find the key inside the fort.
+  - questID: MOUNTAIN_DOOR
+    questStatus: 0
+    questName: Open the research center
+    questDescription: Open the door of the research center in the mountains.
+  - questID: RESEARCH_CENTER
+    questStatus: 0
+    questName: Infiltrate the research center
+    questDescription: Find informations inside the research center.
+  - questID: MOUNTAIN_COMMAND
+    questStatus: 0
+    questName: Find the command center
+    questDescription: Find the entrance of the command center in the mountains. It
+      is hidden near the outpost in the mountains.
+  - questID: COMMAND
+    questStatus: 0
+    questName: Infiltrate the command center
+    questDescription: Infiltrate the command center and kill the terrorist leader.
